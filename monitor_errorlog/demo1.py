@@ -59,4 +59,4 @@ if __name__ == '__main__':
     __business_id = uuid.uuid1()
     print __business_id
     params = "{\"filename\":\"某个业务的错误日志\",\"ip_address\":\"1.1\"}"
-    print send_sms(__business_id, "18511613400", SIGN_NAME, TEMPLATE_CODE, params)
+    print send_sms(__business_id, "18511111111", SIGN_NAME, TEMPLATE_CODE, params)
